@@ -1,0 +1,6 @@
+{:description "A template for new Clojure projects"
+ :transform
+ [["src" "src/{{top/file}}"
+   {"main.clj" "{{main/file}}.clj"}]
+  ["test" "test/{{top/file}}"
+   {"main_test.clj" "{{main/file}}_test.clj"}]]}
